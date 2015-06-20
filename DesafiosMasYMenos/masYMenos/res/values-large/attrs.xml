@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<declare-styleable name="OpcionTextView">
+	    <attr name="offsetX" format="float" />
+	    <attr name="offsetY" format="float" />
+	</declare-styleable>
+	
+</resources>

@@ -1,0 +1,249 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutn1p2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/nivel1_fondo"
+    android:gravity="bottom"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/rl_nivel2_juego"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+              <LinearLayout
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="87"
+                  android:background="#b2ffffe0" >
+            
+		            <TextView
+		                android:id="@+id/consigna"
+		                style="@style/ConsignaFont"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_gravity="center"
+		                android:layout_marginLeft="20dp"
+		                android:text="\u00BF Cuales son los p\u00e9talos que faltan ?"
+		                android:textColor="#008080" />
+
+			</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="13"
+                android:orientation="vertical" >
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="90" />
+              
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="10" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:gravity="center_horizontal" >
+
+                    <ImageView
+                        android:id="@+id/flor_punteada"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/nivel2_flor_2petalos"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/petalo_derecha"
+    					android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/nivel2_petalo_derecha"
+                        android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/petalo_izquierda"
+                       	android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/nivel2_petalo_izquierda"
+                        android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/flor_petalo_punteado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/nivel2_flor_petalopunteado"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/flor_sin_petalos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/nivel2_flor_sinpetalos"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/flor_sin_petalos2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/nivel2_flor_sinpetalos"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/resultado"
+                        android:layout_alignLeft="@+id/petalo_izquierda"
+                        android:text="1"
+                        style="@style/FlorResultadoFont"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50" >
+
+                    <LinearLayout
+                        android:id="@+id/petalos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/escalon"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical" >
+
+                        <com.cortex.dane.masymenos.nivel2.Petalo
+                            android:id="@+id/petalo1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/nivel2_petalo" >
+                        </com.cortex.dane.masymenos.nivel2.Petalo>
+
+                        <com.cortex.dane.masymenos.nivel2.Petalo
+                            android:id="@+id/petalo2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/nivel2_petalo" >
+                        </com.cortex.dane.masymenos.nivel2.Petalo>
+
+                        <com.cortex.dane.masymenos.nivel2.Petalo
+                            android:id="@+id/petalo3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/nivel2_petalo" >
+                        </com.cortex.dane.masymenos.nivel2.Petalo>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/escalon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="bottom"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/puntaje"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/nivel1_pasto" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_nivel2_festejo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="75" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="90" />
+
+                <ImageView
+                    android:id="@+id/nivel2_correcto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="40"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/nivel1_correcto" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="90" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="25"
+                android:gravity="bottom|center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/nivel2_nena_festejo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

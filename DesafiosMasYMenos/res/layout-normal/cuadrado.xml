@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+	    android:id="@+id/rl"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="30" >
+	    
+		<TextView
+		    android:id="@+id/nombre_operando"
+		    style="@style/CuadradoFont"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" />
+
+	    <TextView
+	        android:id="@+id/tv_operador_unidad"
+	        style="@style/OpcionFont"
+	        android:layout_centerInParent="true"
+	        android:text="U" />
+	    
+	    <ImageView
+	        android:id="@+id/imagen_operando"
+	        style="@style/OpcionFont"
+	        android:layout_centerInParent="true" />
+
+     </RelativeLayout>
+</merge> 

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- MENU PRINCIPIAL -->
+    
+    <style name="MenuFont">
+		<item name="android:textSize">30sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	
+	
+    <!-- GAME SELECTION -->
+    
+   	<style name="GSConsignaFont">
+		<item name="android:textSize">25sp</item>
+		<item name="android:textColor">#008080</item>
+		<item name="android:clickable">true</item>
+		<item name="android:gravity">center</item>
+	</style>
+    
+	<style name="GSFont">
+		<item name="android:textSize">30sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:gravity">right|center</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+   	<style name="PanelFont">
+		<item name="android:textSize">65sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+	<style name="PanelTextFont">
+		<item name="android:textSize">15sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+	<style name="GameTextFont">
+		<item name="android:textSize">35sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+    <!-- NIVEL 2 -->
+	
+    <style name="PetaloFont">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#b8dcf5</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	
+     <style name="FlorResultadoFont">
+		<item name="android:textSize">40sp</item>
+		<item name="android:textColor">#005400</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentTop">true</item>
+	</style>
+	
+    <!-- NIVEL 3 -->
+	
+    <style name="GloboFont">
+		<item name="android:textSize">50sp</item>
+		<item name="android:textColor">#e1dfe2</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	
+	<style name="MarcoNivel3Font">
+		<item name="android:textSize">40sp</item>
+		<item name="android:textColor">#008080</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	
+    <!-- NIVEL 4 -->
+	
+    <style name="ConsignaFont">
+		<item name="android:textSize">25sp</item>
+		<item name="android:textColor">#008080</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+    <style name="EnunciadoFont">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#008080</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+    <style name="OpcionFont">
+		<item name="android:textSize">28sp</item>
+		<item name="android:textColor">#008080</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+    <style name="OperandoFont">
+		<item name="android:textSize">28sp</item>
+		<item name="android:textColor">#008080</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+    <style name="CuadradoFont">
+		<item name="android:textSize">60sp</item>
+		<item name="android:textColor">#008080</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+    <!-- About -->
+	
+	<style name="AboutTitulo">
+		<item name="android:textSize">35sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+	<style name="AboutTexto">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#00494d</item>
+		<item name="android:clickable">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_weight">20</item>
+	</style>
+	
+	<!-- REPORTES -->
+	
+	<style name="ReporteTitulo">
+		<item name="android:textSize">30sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+	
+	<style name="ReporteTituloGrafico">
+		<item name="android:textSize">24sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+	
+	<style name="ReporteConsigna">
+		<item name="android:textSize">18sp</item>
+		<item name="android:gravity">left</item>
+		<item name="android:textColor">#00494d</item>
+	</style>
+    
+	<style name="ReporteFechaBoton">
+		<item name="android:textSize">15sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+	
+	<style name="ReporteBoton">
+		<item name="android:textSize">22sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+	
+	<style name="ReporteNivelSelector">
+		<item name="android:textSize">20sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+	
+</resources>

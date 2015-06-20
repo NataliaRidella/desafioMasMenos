@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/example/masymenos/nivel1/Nivel1Activity.java" />
+        <ignore path="src/com/example/masymenos/nivel2/Nivel2Activity.java" />
+    </issue>
+    <issue id="ContentDescription">
+        <ignore path="res/layout-large/nivel2.xml" />
+        <ignore path="res/layout-normal/nivel2.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout-large/nivel2.xml" />
+        <ignore path="res/layout-normal/nivel2.xml" />
+    </issue>
+</lint>

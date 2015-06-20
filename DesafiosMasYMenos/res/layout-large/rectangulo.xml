@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout
+        android:id="@+id/rl"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="30" >
+	    
+		<TextView
+		    android:id="@+id/nombre_operando"
+		    style="@style/OperandoFont"
+		    android:text="SUMANDO" />
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true" >
+
+		    <TextView
+		        android:id="@+id/tv_operador_decena"
+		        style="@style/OpcionFont"
+		        android:text="D" />
+
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="  "
+		        android:textSize="25sp" />
+
+		    <TextView
+		        android:id="@+id/tv_operador_unidad"
+		        style="@style/OpcionFont"
+		        android:text="U" />
+		</LinearLayout>
+     
+     </RelativeLayout>
+</merge> 

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gs_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gs_fondo"
+    android:orientation="horizontal"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:id="@+id/ll_nena"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY" >
+
+        <ImageView
+            android:id="@+id/iv_nena"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="60" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="40"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/consigna"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                style="@style/GSConsignaFont" />
+
+            <LinearLayout
+                android:id="@+id/lloperaciones"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="60" >
+
+                <TextView
+                    android:id="@+id/jugar"
+                    style="@style/GSFont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:gravity="center_horizontal"
+                    android:text="JUGAR"
+                    android:textColor="#008080"
+                    android:textSize="45sp" />
+
+                <TextView
+                    android:id="@+id/operaciones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="Mas y Menos"
+                    android:textColor="#008080"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nivel1_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@id/ll_nena"
+        android:orientation="horizontal"
+        android:scaleType="fitXY"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/left2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gs_darkmaincolor"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical"
+            android:scaleType="fitXY"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/textoSubnivelIzquierda"
+                style="@style/GameTextFont"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="60"
+                android:tag="textoImagen"
+                android:textColor="#30f0f0" />
+
+            <ImageView
+                android:id="@+id/iv_subnivel_left"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:src="@drawable/gs_arbol"
+                android:tag="imagen"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gs_lightmaincolor"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical"
+            android:scaleType="fitXY"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/textoSubnivelDerecha"
+                style="@style/GameTextFont"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="60"
+                android:tag="textoImagen"
+                android:textColor="#008080" />
+
+            <ImageView
+                android:id="@+id/iv_subnivel_right"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:src="@drawable/gs_flor"
+                android:tag="imagen"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:scaleType="fitXY" >
+
+        <LinearLayout
+            android:id="@+id/left"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gs_lightmaincolor"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="vertical"
+            android:scaleType="fitXY"
+            android:visibility="visible" >
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="20" />
+
+            <TextView
+                android:id="@+id/tv_nivel_left"
+                style="@style/PanelFont"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="20"
+                android:gravity="center"
+                android:tag="texto"
+                android:text="Nivel 1"
+                android:textColor="#008080"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/nivel_text_left"
+                style="@style/PanelTextFont"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="25"
+                android:text="@string/panel_nivel1"
+                android:textColor="#008080" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gs_darkmaincolor"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/View01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="20" />
+
+            <TextView
+                android:id="@+id/tv_nivel_right"
+                style="@style/PanelFont"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="20"
+                android:gravity="center"
+                android:tag="texto"
+                android:text="Nivel 2"
+                android:textColor="#008080"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/nivel_text_right"
+                style="@style/PanelTextFont"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="25"
+                android:text="@string/panel_nivel2"
+                android:textColor="#30f0f0" />
+
+            <View
+                android:id="@+id/View02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="20" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

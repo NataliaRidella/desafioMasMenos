@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutn1p2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nivel1_fondo"
+    android:gravity="top"
+    android:visibility="visible"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/rl_nivel3_juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="80"
+                android:background="#b2ffffe0" >
+
+                <TextView
+                    android:id="@+id/consigna"
+                    style="@style/ConsignaFont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:text="Consigna"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#008080" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_globos"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="15" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50" >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_globos"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_alignEnd="@+id/payaso"
+                        android:layout_alignLeft="@+id/payaso" >
+
+                        <com.cortex.dane.masymenos.nivel3.Globo
+                            android:id="@+id/globo_izquierda"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true" >
+                        </com.cortex.dane.masymenos.nivel3.Globo>
+
+                        <com.cortex.dane.masymenos.nivel3.Globo
+                            android:id="@+id/globo_derecha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true" >
+                        </com.cortex.dane.masymenos.nivel3.Globo>
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/signo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="50dp"
+                        android:src="@drawable/nivel3_mas"
+                        android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/payaso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/nivel3_payaso" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="33" >
+
+                        <ImageView
+                            android:id="@+id/marco1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/nivel3_nube" />
+
+                        <TextView
+                            android:id="@+id/resultado1"
+                            style="@style/MarcoNivel3Font"
+                            android:text="Resultado 1" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="33" >
+
+                        <ImageView
+                            android:id="@+id/marco2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/nivel3_nube" />
+
+                        <TextView
+                            android:id="@+id/resultado2"
+                            style="@style/MarcoNivel3Font"
+                            android:text="Resultado 2" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="33" >
+
+                        <ImageView
+                            android:id="@+id/marco3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/nivel3_nube" />
+
+                        <TextView
+                            android:id="@+id/resultado3"
+                            style="@style/MarcoNivel3Font"
+                            android:text="Resultado 3" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_nivel3_festejo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="75" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="90" />
+
+                <ImageView
+                    android:id="@+id/nivel3_correcto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="40"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/nivel1_correcto" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="90" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="25"
+                android:gravity="bottom|center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/nivel3_nena_festejo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

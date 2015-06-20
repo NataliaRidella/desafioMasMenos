@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<animation-list xmlns:android="http://schemas.android.com/apk/res/android"	android:oneshot="true">
+	    
+		<item android:drawable="@drawable/festejo_nena_01" android:duration="1000"/>
+		<item android:drawable="@drawable/festejo_nena_02" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_03" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_04" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_05" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_06" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_07" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_08" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_09" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_10" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_12" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_13" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_14" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_15" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_16" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_17" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_18" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_19" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_20" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_21" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_22" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_23" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_24" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_25" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_26" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_27" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_28" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_29" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_30" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_31" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_32" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_33" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_34" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_35" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_36" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_37" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_38" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_39" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_40" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_41" android:duration="40"/>
+		<item android:drawable="@drawable/festejo_nena_42" android:duration="40"/>
+
+	</animation-list>

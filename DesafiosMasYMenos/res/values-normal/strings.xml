@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Desaf\u00edos M\u00e1s y Menos</string>
+    <string name="about_texto1">\n
+        						•	Trabajar el concepto de suma y resta como agregar y quitar.\n\n
+        						•	Resolver sumas y restas de números de dos cifras sin dificultad operatoria.\n\n
+        						•	Aplicar los algoritmos de ambas operaciones para resolver situaciones problemáticas.\n\n  
+        						•	Consultar el desempeño del usuario mediante un reporte gráfico de las respuestas seleccionadas.\n\n
+    </string>
+    <string name="about_texto2">
+			 					\t\tQueridos padres: esta aplicación está pensada para niños que ya comenzaron a trabajar  el concepto de suma y resta, como agregar y quitar con números de dos cifras. Es necesario que conozcan el significado de los símbolos de más y menos y que puedan conocer la serie numérica hasta el 50. \n\n
+								\t\tEste aplicativo tiene dos niveles, el primero donde se focaliza el concepto de suma y resta con operaciones simples y el nivel dos que busca la aplicación de dichas operaciones para resolver problemas. \n\n
+								\t\tEs un ejercicio que complementa el trabajo de los docentes y profesionales de la educación que enseñan y ejercitan estos conceptos. El objetivo principal es el aprendizaje, para tal fin es fundamental que cada actividad del aplicativo  esté guiada por un profesional competente. \n\n
+								\t\tUstedes papás pueden acompañar estos nuevos conceptos permitiendo que sus hijos usen este aplicativo en casa, orientados por los docentes y profesionales que trabajan con sus hijos. \n\n
+	</string>
+	<string name="about_texto3">
+	    						\t\tQueridos docentes: esta aplicación es una herramienta pensada para complementar la práctica en la enseñanza del concepto de agregar y quitar representado con los símbolos de más y menos con números de dos cifras. \n\n
+								\t\tTiene dos niveles: el primero se focaliza en la resolución de operaciones con números de dos cifras hasta el 50, el segundo nivel tiene situaciones problemáticas con la aplicación de las operaciones del nivel uno.  Los lineamientos teóricos que la sustenta son propios de las neurociencias, destinados a trabajar un concepto pedagógico desarrollando habilidades  cognitivas que los sustentan. Por las características del aplicativo, los niños a los cuales está destinada la actividad deben estar cursando la sala de 5  del  nivel inicial o el primer ciclo de primaria.\n\n 
+								\t\tSe puede usar como actividad de repaso complementando  otras realizadas  con diferentes materiales.\n\n
+	</string>
+	<string name="about_texto4"> 
+	    						\t\tDesafíos Más y Menos forma parte del Proyecto Dane cuyo principal objetivo es llevar adelante una revolución en la forma de enseñarle contenidos a los niños y jóvenes con necesidades especiales, brindando soluciones de software y acercándoles la tecnología informática.\n\n
+								\t\tLa aplicación fue creada por alumnos de la carrera Ingeniería en Sistemas de Información de la UTN - Facultad Regional Buenos Aires. Se trabajó en conjunto con la cátedra de Proyecto Final de la carrera, y con directivos y profesores del Colegio San Carlos Diálogos de Olivos.\n\n
+								Miembros del Equipo de Desarrollo y Gestión del Proyecto:\n\n
+ 								\t\t• Fischetti, Bruno \n
+ 								\t\t• Mart\u00EDnez Fonseca, Nicol\u00e1s\n
+ 								\t\t• Pisani Testa, Christian\n
+ 								\t\t• Ru\u00EDz, Pablo
+	</string>
+	<string name="about_integrantes"> 
+	    						
+	</string>
+	
+	<string name="panel_nivel1">N\u00FAmeros de una cifra</string>
+	<string name="panel_nivel2">N\u00FAmeros de dos cifras</string>
+	<string name="reporte_consigna">1. Presione los botones de fecha inicial y fecha final para seleccionar un rango de su inter\u00E9s.\n2. Elija un juego en particular para realizar una consulta espec\u00EDfica o mantenga la b\u00FAsqueda predeterminada para ver los resultados generales.</string>
+    <string name="nivel_prompt">Elija un nivel</string>
+    
+    <string-array name="nivel_arrays">
+        <item>Todos los niveles</item>
+        <item>Nivel 1</item>
+        <item>Nivel 2</item>
+        <item>Nivel 3</item>
+        <item>Nivel 4</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,269 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.cortex.dane.masymenos"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nivel4"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/nivel1_fondo"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/rl_nivel4_juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:id="@+id/l_enunciado"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#b2ffffe0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/enunciado"
+                style="@style/EnunciadoFont"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_opcion"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="50" >
+
+            <com.cortex.dane.masymenos.nivel4.OperadorSuma
+                android:id="@+id/opcion1"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.25"
+                custom:offsetY="0.28" >
+            </com.cortex.dane.masymenos.nivel4.OperadorSuma>
+
+            <com.cortex.dane.masymenos.nivel4.OperadorResta
+                android:id="@+id/opcion2"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.75"
+                custom:offsetY="0.28" >
+            </com.cortex.dane.masymenos.nivel4.OperadorResta>
+
+            <com.cortex.dane.masymenos.nivel4.Opcion
+                android:id="@+id/opcion3"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.07"
+                custom:offsetY="0.33" >
+            </com.cortex.dane.masymenos.nivel4.Opcion>
+
+            <com.cortex.dane.masymenos.nivel4.Opcion
+                android:id="@+id/opcion4"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.27"
+                custom:offsetY="0.75" >
+            </com.cortex.dane.masymenos.nivel4.Opcion>
+
+            <com.cortex.dane.masymenos.nivel4.Opcion
+                android:id="@+id/opcion5"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.94"
+                custom:offsetY="0.35" >
+            </com.cortex.dane.masymenos.nivel4.Opcion>
+
+            <com.cortex.dane.masymenos.nivel4.Opcion
+                android:id="@+id/opcion6"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.07"
+                custom:offsetY="0.79">
+            </com.cortex.dane.masymenos.nivel4.Opcion>
+
+            <com.cortex.dane.masymenos.nivel4.Opcion
+                android:id="@+id/opcion7"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.175"
+                custom:offsetY="0.54" >
+            </com.cortex.dane.masymenos.nivel4.Opcion>
+
+            <com.cortex.dane.masymenos.nivel4.Opcion
+                android:id="@+id/opcion8"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.78"
+                custom:offsetY="0.50" >
+            </com.cortex.dane.masymenos.nivel4.Opcion>
+
+            <com.cortex.dane.masymenos.nivel4.Opcion
+                android:id="@+id/opcion9"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.9"
+                custom:offsetY="0.68" >
+            </com.cortex.dane.masymenos.nivel4.Opcion>
+
+            <com.cortex.dane.masymenos.nivel4.Opcion
+                android:id="@+id/opcion10"
+                style="@style/OpcionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                custom:offsetX="0.75"
+                custom:offsetY="0.79" >
+            </com.cortex.dane.masymenos.nivel4.Opcion>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/l_marco"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/escalonIzquierda"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="33"
+                android:text=" " />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="33"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/escalonSuperior"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="40"
+                    android:text=" " />
+
+                <RelativeLayout
+                    android:id="@+id/l_marco_interno"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="5" >
+
+                    <com.cortex.dane.masymenos.nivel4.Rectangulo
+                        android:id="@+id/operadorSuperior"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                    </com.cortex.dane.masymenos.nivel4.Rectangulo>
+
+                    <com.cortex.dane.masymenos.nivel4.Rectangulo
+                        android:id="@+id/operadorInferior"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                    </com.cortex.dane.masymenos.nivel4.Rectangulo>
+
+                    <com.cortex.dane.masymenos.nivel4.Rectangulo
+                        android:id="@+id/resultado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                    </com.cortex.dane.masymenos.nivel4.Rectangulo>
+
+                    <com.cortex.dane.masymenos.nivel4.Cuadrado
+                        android:id="@+id/operacion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                    </com.cortex.dane.masymenos.nivel4.Cuadrado>
+
+                    <ImageView
+                        android:id="@+id/tabla_horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/nivel4_tabla_horizontal" />
+
+                    <ImageView
+                        android:id="@+id/tabla_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/nivel4_tabla_vertical" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/escalonInferior"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="50"
+                    android:text=" " />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/escalonDerecha"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="33"
+                android:text=" " />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_nivel4_festejo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="75" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="90" />
+
+                <ImageView
+                    android:id="@+id/nivel4_correcto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="40"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/nivel1_correcto" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="90" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="25"
+                android:gravity="bottom|center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/nivel4_nena_festejo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
